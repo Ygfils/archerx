@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+body {
+-moz-osx-font-smoothing:grayscale;
+-ms-flex-direction:column;
+-webkit-box-direction:normal;
+-webkit-box-orient:vertical;
+-webkit-font-smoothing:antialiased;
+background:#f5f5f5;
+color:#777;
+display:flex;
+flex-direction:column;
+font-family:Montserrat, sans-serif;
+font-size: 1em;
+font-weight:300;
+margin:0;
+min-height:100vh;
+}
+
+
+/************************ Navbar container ************************/
+.navbar {
+overflow: hidden;
+background-color: rgb(12,35,67);
+font-family: Arial;
+margin: 0 ;
+height: 50px;
+display: flex;
+justify-content: center;
+border-bottom: 5px solid rgb(15,125,162);
+}
+/* Links inside the navbar */
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 12px 50px;
+text-decoration: none;
+}
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+text-align: center;
+padding: 12px 39px;
+}
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(15,125,162);
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 162px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content-atualizar {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content-atualizar a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content-atualizar a:hover {
+    background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content-atualizar {
+    display: block;
+}
+.footer {
+height: 25px;
+background-color: rgb(12,35,67);
+color: rgb(255, 255, 255);
+position: fixed;
+bottom: 0;
+width: 100%;
+border-top: 5px solid rgb(15,125,162);
+z-index: 5;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #0f7da2 #0c2343; 
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;    
+}
+
+*::-webkit-scrollbar-track {
+    background: #0c2343;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #0f7da2;
+    border-radius: 10px;
+    border: 3px outset #ffffff;
+    height: 50px;
+}

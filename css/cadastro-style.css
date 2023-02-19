@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table, th {
+  border: 1px hidden;
+  border-radius: 10px;
+  padding: 50px; 
+  text-align: center;
+  width: 80%;
+  border: 1px solid rgb(54, 52, 52);
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+
+body{
+  background: url('../public/img/blue.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+tr:hover {
+  background-color: rgb(130, 188, 211);
+}
+
+td{
+  border-bottom: 1px solid;
+  padding: 5px;  
+}
+
+.container{
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+
+  padding-top: 10px;
+
+  line-height: 1.5;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  color: #000;
+}
+.container label{
+  padding-left: 15px;
+  
+  color: #000;
+}
+.container input[type='submit']{
+  background: rgb(15,125,162);
+  color: white;
+
+  width: 100px;
+  height: 25px;
+ 
+  border-radius: 10px;
+
+  margin-top: 10px;
+  margin-left: 15px;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container input[type="submit"]:hover{
+  background-color: rgb(12,35,67);
+}
+.container .host{
+  width: 200px;
+  border-radius: 20px;
+
+  position: relative;
+  left: 20px;
+
+  margin-bottom: 10px;
+
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+.container .serie{
+  width: 200px;
+  border-radius: 20px;
+
+  position: relative;
+  left: 60px;
+
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+.container .monitor{
+  width: 200px;
+  border-radius: 20px;
+
+  position: relative;
+  left: 30px;
+
+  margin-bottom: 10px;
+
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+.container .qd{
+  width: 200px;
+  border-radius: 20px;
+
+  position: relative;
+  left: 30px;
+
+  margin-bottom: 10px;
+
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+
+.finder{
+  padding-top: 50px;
+  font-family: Verdana,sans-serif;
+  font-size: large;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.drop_down{
+  border-radius: 5px;
+  font-family: Verdana,sans-serif;
+  text-align: center;
+  font-size: large;
+  border: 2px solid rgb(12,35,67);
+}
+
+.search_bar{
+  border-radius: 5px;
+  padding-top: 10px;
+  font-family: Verdana,sans-serif;
+  font-size: large;
+}
+
+form{
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+
+.opcoes{
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}

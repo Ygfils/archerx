@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table, th {
+  border: 1px hidden;
+  padding: 50px; 
+  text-align: center;
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #000;
+  border: 2px solid rgb(12,35,67);
+}
+
+body{
+  background: url('../public/img/blue.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+tr:hover {
+  background-color: rgb(130, 188, 211);
+}
+
+td{
+  border-bottom: 1px solid;
+  padding: 5px;  
+}
+
+.container{
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
